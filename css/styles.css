@@ -1,0 +1,36 @@
+body {
+    font-family: Palatino;
+}
+
+nav {
+    color: black;
+}
+
+nav ul,
+nav a {
+    list-style-type: "\1F517\FE0E\  ";
+    text-decoration: none;
+    color: red;
+    margin-top: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 5px;
+    width: fit-content;
+    background: red;
+    color: white;
+    font-family: Garamond, Baskerville;
+    font-weight: normal;
+    font-style: italic;
+}
+
+footer {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
