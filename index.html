@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="img/cart.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CutreShop</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/cart.svg" alt="Logo del sitio, carrito de compras.">
+        <h1>Bienvenidos al sitio de compras más cutre</h1>
+    </header>
+
+    <nav>
+        Esta es una nav:
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Nosotros</a></li>
+            <li><a href="products.html">Productos</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h1>Título principal de mi página</h1>
+            <p>
+                Lorem ipsum dolor sit <br>
+                <strong>texto en negrita</strong> <br>
+                <em>texto en italica</em> <br>
+                <s>Texto tachado</s> <br>
+
+            </p>
+        </section>
+
+        <section>
+            <h2>Contenidos de la clase 2:</h1>
+                Lista ordenada:
+                <ol>
+                    <li>Encender la computadora.</li>
+                    <li>Abrir el navegador.</li>
+                    <li>Acceder al sitio web.</li>
+                </ol>
+                Lista desordenada:
+                <ul>
+                    <li>Pantalla de 15 pulgadas.</li>
+                    <li>Batería de larga duración.</li>
+                    <li>Procesador Intel.</li>
+                </ul>
+                Lista de definición:
+                <dl>
+                    <dt>El pepe</dt>
+                    <dd>Sujeto de tez oscura.</dd>
+                    <dt>CSS</dt>
+                    <dd>Lenguaje de programación utilizado para aplicar estilos y diseño a las páginas web.</dd>
+                </dl>
+                <a href="https://www.google.com" title="me void">Te portaste mal sertás enviado a Google</a>
+                <a href="mailto:pepe@gmail.com">Enviar correo</a>
+                <a href="README.md" download>Descargar documento</a>
+                <h2>Ejercicio:</h2>
+                ¡El video WebM más pequeño del mundo! ¡Pesa tan solo 185 bytes!<br>
+                <video autoplay muted controls height=480px>
+                    <track src="img/subt.vtt" kind="subtitles" srclang="es" label="Español" default>
+                    <source src="img/webm.webm">
+                    Video WebM más pequeño posible (creo). <code>video</code>.
+                </video>
+        </section>
+
+        <section>
+            <h2>Contenidos de la clase 3:</h2>
+            <table border="1">
+                <caption>Mensajes de gente</caption>
+                <tr>
+                    <th rowspan="2">Nombre</th>
+                    <th colspan="2">Contacto</th>
+                </tr>
+                <tr>
+                    <td>Teléfono</td>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>123456789</td>
+                    <td>ana@ejemplo.com</td>
+                </tr>
+            </table>
+            <br>
+
+            <form action="procesar.js" method="post">
+                <fieldset color="black">
+                    <legend>¡Contáctenos!</legend>
+                    <!-- Aquí van los campos del formulario nashee -->
+                    <ul>
+                        <li>
+                            <label for="name">Nombre:</label>
+                            <input id="name" type="text" name="nombre" required>
+                        </li>
+                        <li>
+                            <label for="email">Correo:</label>
+                            <input id="email" type="email" name="correo" required>
+                        </li>
+                        <li>
+                            <label for="msg">Mensaje:</label>
+                            <textarea id="msg" name="mensaje" rows="1" cols="25"></textarea>
+                        </li>
+                    </ul>
+                    <select name="opciones">
+                        <option value="si">Soy capo</option>
+                        <option value="no">nub :c</option>
+                    </select>
+                    <input type="hidden" name="_redirect" value="blank">
+                    <button type="submit">Enviar</button> <button type="reset">Limpiar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Este es el pieee de página.</p>
+    </footer>
+</body>
+
+</html>
