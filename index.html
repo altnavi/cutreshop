@@ -3,80 +3,125 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="img/cart.svg">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="./img/cart.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <!-- Nuestro CSS externo va como último link antes del title -->
+    <link rel="stylesheet" href="./css/styles.css">
     <title>CutreShop</title>
 </head>
 
 <body>
     <header>
         <h1>
-            <img id="logo" src="img/cart.svg" height=26px alt="Logo del sitio, carrito de compras.">
+            <img id="logo" src="./img/cart.svg" height=26px alt="Logo del sitio, carrito de compras.">
             Bienvenidos al sitio de compras más cutre
         </h1>
+
+        <nav>
+            Esta es una nav:
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./about.html">Nosotros</a></li>
+                <li><a href="./products.html">Productos</a></li>
+                <li><a href="./services.html">Servicios</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+
     </header>
 
-    <nav>
-        Esta es una nav:
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html">Nosotros</a></li>
-            <li><a href="products.html">Productos</a></li>
-            <li><a href="services.html">Servicios</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-        </ul>
-    </nav>
+
 
     <main>
         <section>
-            <h1>Título principal de mi página</h1>
+            <h1>Compras de pocos bits</h1>
             <p>
-                Lorem ipsum dolor sit <br>
-                <strong>texto en negrita</strong> <br>
-                <em>texto en italica</em> <br>
-                <s>Texto tachado</s> <br>
-
+                Compre fácilmente desde el Amazonas con su conexión 2G. ¡Este sitio no discrimina!
+                Vendemos cosas variadas.
             </p>
         </section>
 
         <section>
-            <h2>Contenidos de la clase 2:</h1>
-                Lista ordenada:
-                <ol>
-                    <li>Encender la computadora.</li>
-                    <li>Abrir el navegador.</li>
-                    <li>Acceder al sitio web.</li>
-                </ol>
-                Lista desordenada:
+            <h1>Productos</h1>
+            <div class="div-producto">
+                <h3 class="titulo-producto">Paloma</h3>
+                <img class="imagen-producto" src="./img/hato.profile0.10bpc.yuv420.avif"
+                    alt="tremenda imagen de una paloma">
+                <p class="descripcion-producto">
+                    Una palomita de buena calidad. Se vende por unidad. No se incluyen
+                    plumas. La imagen es formato AV1, por lo que es muy ligera.
+                </p>
+                <p class="precio">$ 450.000</p>
                 <ul>
-                    <li>Pantalla de 15 pulgadas.</li>
-                    <li>Batería de larga duración.</li>
-                    <li>Procesador Intel.</li>
+                    <li>Licencia de imagen: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+                            CC-BY-SA 4.0</a></li>
+                    <li>Autor: Kaede Fujisaki (<a href="https://github.com/ledyba">@ledyba</a>)</li>
+                    <li>Tomado de <a href="https://hexe.net/2017/11/27/12:27:02/">su sitio</a>.</li>
+                    <li>Conversión encontrada en <a href="https://github.com/link-u/avif-sample-images">este repo</a>.
+                    </li>
                 </ul>
-                Lista de definición:
-                <dl>
-                    <dt>El pepe</dt>
-                    <dd>el goldo manin</dd>
-                    <dt>CSS</dt>
-                    <dd>Lenguaje de programación utilizado para aplicar estilos y diseño a las páginas web.</dd>
-                </dl>
-                <a href="https://www.google.com" title="me void">Te portaste mal sertás enviado a Google</a>
-                <a href="mailto:pepe@gmail.com">Enviar correo</a>
-                <a href="README.md" download>Descargar documento</a>
-                <h2>Ejercicio:</h2>
-                ¡El video WebM más pequeño del mundo! ¡Pesa tan solo 185 bytes!<br>
-                <video autoplay muted controls height=480px>
-                    <track src="img/subt.vtt" kind="subtitles" srclang="es" label="Español" default>
-                    <source src="img/webm.webm">
-                    Video WebM más pequeño posible (creo). <code>video</code>.
-                </video>
+            </div>
+
+            <div class="div-producto">
+                <h3 class="titulo-producto">Zorrito</h3>
+                <img class="imagen-producto" src="./img/fox.profile2.12bpc.yuv420.avif"
+                    alt="zarpada imagen de estatuas coloridas de zorritos">
+                <p class="descripcion-producto">El zorro que se vende no es el azul. Tampoco se venden los dos primeros
+                    rojos. No nos hacemos responsables por cualquier defecto inadvertido que pueda tener el zorro a la
+                    venta. Se vende por unidad. Es parte del cimiento, traer esmeril.
+                </p>
+                <p class="precio">$ 500</p>
+                <ul>
+                    <li>Licencia de imagen: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+                            CC-BY-SA 4.0</a></li>
+                    <li>Autor: Kaede Fujisaki (<a href="https://github.com/ledyba">@ledyba</a>)</li>
+                    <li>Tomado de <a href="https://hexe.net/2017/11/27/12:27:02/">su sitio</a>.</li>
+                    <li>Conversión encontrada en <a href="https://github.com/link-u/avif-sample-images">este repo</a>.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="div-producto">
+                <h3 class="titulo-producto">Rueda bugueada</h3>
+                <img class="imagen-producto" src="./img/red-at-12-oclock-with-color-profile-lossy.avif"
+                    alt="tremenda imagen de una paloma">
+                <p class="descripcion-producto">qué queré se me bugeó toda la rueda gordo pero bueno mirá pesa 2,8 KB.
+                    Ya se que están mal los colores dejen de mandarme mail vendo lo que vendo no bajo precio</p>
+                </p>
+                <p class="precio">$ 0,003</p>
+                <ul>
+                    <li>Licencia de imagen: GNU LGPL v2.1 or 2 claused BSD License</li>
+                    <li>Autor: Tony Payne <a href="mailto:tpayne@chromium.org">tpayne@chromium.org</a></li>
+                    <li>Tomado de <a
+                            href="https://chromium.googlesource.com/chromium/src/+/e89ab1941644ff34b262cac05f23e82b7e249377">acá</a>.
+                    </li>
+                    <li>Conversión encontrada en <a href="https://github.com/link-u/avif-sample-images">este repo</a>.
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section>
-            <h2>Contenidos de la clase 3:</h2>
+            <h3>No se bien qué es esto</h3>
+            <a href="https://www.google.com" title="me void">Te portaste mal serás enviado a Google</a>
+            <a href="mailto:dev@dev.com">Enviar correo</a>
+            <a href="tel:+5491123456789">Llamar</a>
+            <a href="./README.md" download>Descargar README</a>
+            <h3>Ejercicio:</h3>
+            ¡El video WebM más pequeño del mundo! ¡Pesa tan solo 185 bytes!<br>
+            <video autoplay muted controls height=480px>
+                <track src="img/subt.vtt" kind="subtitles" srclang="es" label="Español" default>
+                <source src="img/webm.webm">
+                Video WebM más pequeño posible (creo). <code>video</code>.
+            </video>
+        </section>
+
+        <section>
+            <h2>Agradecimientos</h2>
             <table border="1">
-                <caption>Mensajes de gente</caption>
+                <caption>Desarrolladores</caption>
                 <tr>
                     <th rowspan="2">Nombre</th>
                     <th colspan="2">Contacto</th>
@@ -86,9 +131,9 @@
                     <td>Email</td>
                 </tr>
                 <tr>
-                    <td>Ana</td>
-                    <td>123456789</td>
-                    <td>ana@ejemplo.com</td>
+                    <td>Dev</td>
+                    <td>11 2345-6789</td>
+                    <td>dev@dev.com</td>
                 </tr>
             </table>
             <br>
@@ -123,7 +168,7 @@
     </main>
 
     <footer>
-        &copy 2026 cutreshop todos los derechos reservados
+        &copy 2026 CutreShop todos los derechos reservados
     </footer>
 </body>
 

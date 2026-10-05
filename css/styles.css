@@ -1,5 +1,6 @@
 body {
-    font-family: Palatino;
+    font-family: Palatino Linotype, Palatino, P059;
+    padding-inline: 5vw;
 }
 
 nav {
@@ -15,18 +16,28 @@ nav a {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    padding: 5px;
+h2 {
+    padding-inline: .5em;
+    padding-block: .3em;
     width: fit-content;
     background: red;
     color: white;
     font-family: Garamond, Baskerville;
     font-weight: normal;
     font-style: italic;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    color: red;
+    padding: .3em;
+    width: fit-content;
+    border: 1px solid red;
+    font-family: Libre Baskerville, Garamond, Baskerville;
+    font-weight: normal;
+    font-style: normal;
 }
 
 footer {
