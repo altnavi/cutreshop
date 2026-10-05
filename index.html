@@ -43,8 +43,8 @@
             </p>
         </section>
 
-        <section>
-            <h1>Productos</h1>
+        <h1>Productos</h1>
+        <section class="contenedor-tarjetas">
             <div class="div-producto">
                 <h3 class="titulo-producto">Paloma</h3>
                 <img class="imagen-producto" src="./img/hato.profile0.10bpc.yuv420.avif"
@@ -62,6 +62,7 @@
                     <li>Conversión encontrada en <a href="https://github.com/link-u/avif-sample-images">este repo</a>.
                     </li>
                 </ul>
+                <button>Añadir al carrito</button>
             </div>
 
             <div class="div-producto">
@@ -81,6 +82,7 @@
                     <li>Conversión encontrada en <a href="https://github.com/link-u/avif-sample-images">este repo</a>.
                     </li>
                 </ul>
+                <button>Añadir al carrito</button>
             </div>
 
             <div class="div-producto">
@@ -100,8 +102,11 @@
                     <li>Conversión encontrada en <a href="https://github.com/link-u/avif-sample-images">este repo</a>.
                     </li>
                 </ul>
+                <button>Añadir al carrito</button>
             </div>
         </section>
+
+
 
         <section>
             <h3>No se bien qué es esto</h3>
@@ -118,57 +123,11 @@
             </video>
         </section>
 
-        <section>
-            <h2>Agradecimientos</h2>
-            <table border="1">
-                <caption>Desarrolladores</caption>
-                <tr>
-                    <th rowspan="2">Nombre</th>
-                    <th colspan="2">Contacto</th>
-                </tr>
-                <tr>
-                    <td>Teléfono</td>
-                    <td>Email</td>
-                </tr>
-                <tr>
-                    <td>Dev</td>
-                    <td>11 2345-6789</td>
-                    <td>dev@dev.com</td>
-                </tr>
-            </table>
-            <br>
 
-            <form action="procesar.js" method="post">
-                <fieldset color="black">
-                    <legend>¡Contáctenos!</legend>
-                    <!-- Aquí van los campos del formulario nashee -->
-                    <ul>
-                        <li>
-                            <label for="name">Nombre:</label>
-                            <input id="name" type="text" name="nombre" required>
-                        </li>
-                        <li>
-                            <label for="email">Correo:</label>
-                            <input id="email" type="email" name="correo" required>
-                        </li>
-                        <li>
-                            <label for="msg">Mensaje:</label>
-                            <textarea id="msg" name="mensaje" rows="1" cols="25"></textarea>
-                        </li>
-                    </ul>
-                    <select name="opciones">
-                        <option value="si">Soy capo</option>
-                        <option value="no">nub :c</option>
-                    </select>
-                    <input type="hidden" name="_redirect" value="blank">
-                    <button type="submit">Enviar</button> <button type="reset">Limpiar</button>
-                </fieldset>
-            </form>
-        </section>
     </main>
 
     <footer>
-        &copy 2026 CutreShop todos los derechos reservados
+        &copy 2026 CutreShop todos los derechos reservados <a href="mailto:cutre@shop.legal">cutre@shop.legal</a>
     </footer>
 </body>
 

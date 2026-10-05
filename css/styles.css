@@ -1,7 +1,33 @@
-body {
-    font-family: Palatino Linotype, Palatino, P059;
-    padding-inline: 5vw;
+body,
+button,
+input,
+textarea,
+select {
+    font-family: Palatino Linotype, Palatino, P059, Tex Gyre Pagella;
 }
+
+
+
+main {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 2rem;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+footer {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
 
 nav {
     color: black;
@@ -17,8 +43,7 @@ nav a {
 
 h1,
 h2 {
-    padding-inline: .5em;
-    padding-block: .3em;
+    padding: .3em .5em;
     width: fit-content;
     background: red;
     color: white;
@@ -40,8 +65,47 @@ h6 {
     font-style: normal;
 }
 
-footer {
-    padding: 10px;
-    font-size: 12px;
-    text-align: center;
+
+button {
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: lightgoldenrodyellow;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+
+#email,
+.precio {
+    font-family: Cascadia Code, monospace;
+}
+
+.precio {
+    font-size: 1.5em;
+}
+
+#msg,
+#name {
+    font-style: italic;
+}
+
+.div-producto {
+    width: 333px;
+    background-color: rgb(245, 245, 245);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.imagen-producto {
+    width: 100%;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
